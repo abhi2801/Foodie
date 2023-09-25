@@ -1,0 +1,11 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Base.Theme.FoodieFoodie" parent="Theme.Material3.DayNight.NoActionBar">
+    </style>
+
+    <style name="Theme.FoodieFoodie" parent="Base.Theme.FoodieFoodie" />
+    <style name="TextInputLayputTheme" parent="Widget.MaterialComponents.TextInputLayout.OutlinedBox">
+        <item name="boxStrokeColor">@color/lightGreen</item>
+        <item name="boxStrokeWidth">1dp</item>
+    </style>
+</resources>
